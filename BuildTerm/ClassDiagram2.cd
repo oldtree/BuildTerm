@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="Word">
+    <Position X="4.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAEACAAAAIAAAAAAAAAACCAAIAAAAAAAAA=</HashCode>
+      <FileName>BuildTerm.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Chunk">
+    <Position X="1.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAkgAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAiAAAA=</HashCode>
+      <FileName>BuildTerm.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
