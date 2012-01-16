@@ -439,15 +439,21 @@ void showTermsSegment(vector<string> src)
 int _tmain(int argc, _TCHAR* argv[])
 {
 	initial();
+
 	//	read_terms_from_Lexicon();
 	//	write_index();
+
 	build_index();
+
 	//	show_Lexicon();
+
 	string test = "中华人民共和国在1949年建立";
 	test = "从此开始了新中国的伟大篇章";
 	test = "研究生命起源";
 	test = "北京天安门";
+
 	//	从此开始了新中国的伟大篇章中华人民共和国在一九四九年建立
+
 	test = "主要是因为研究生命起源北京天安门";
 	test = "从此开始了新中国的伟大篇章中华人民共和国在一九五五年建立主要是因为研究生命起源北京天安门";
 
@@ -463,9 +469,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//	vector<string> res = mmseg(test);
 	//	int min = 0x7fffffff;
 	//	cout << min;
+
 	vector<string> seg = mmseg(test);
+
 	//	seg.push_back("从");
 	//	sort(seg.begin(), seg.end());
+
 	cout << endl;
 	cout << "test string :" << test << endl;
 	showTermsSegment(seg);
